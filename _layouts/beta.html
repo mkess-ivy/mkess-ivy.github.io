@@ -1,0 +1,41 @@
+{% include head.html %}
+
+{% include header.html %}
+
+<body class="white-bg">
+	{% include intro.html %}
+	<div class="beta-title">{{ page.beta-title }}</div>
+	
+	<div class="wrapper">
+		<div class="beta-summary">{{ page.beta-summary }}</div>
+		<section class="content">
+			<div class="frow justify-start">
+				{% assign content-series = site.content-series %}
+
+				{% for item in content-series %}
+				
+				{% if item.type == "instagram" %}
+				<div class="single-content js_scroll_reveal">
+					<a href="{{ item.link }}" target="_blank"><div class="content-image"><img src="{{ item.image }}" /></div></a>
+				</div>
+				{% endif %}
+				
+				{% if item.type == "article" %}
+				<div class="single-content js_scroll_reveal">
+					<div class="frow centered">
+						<div class="content-article">
+							<div class="content-title">{{ item.title }}</div>
+							<div class="content-link"><a href="{{ item.link }}">Read More</a></div>
+						</div>
+					</div>
+				</div>
+				{% endif %}
+
+				{% endfor %}
+
+			</div>
+		</section>
+	</div>
+</body>
+
+{% include footer.html%}

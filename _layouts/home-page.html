@@ -1,0 +1,47 @@
+{% include head.html %}
+
+{% include header.html %}
+
+<body>
+	<div class="frow justify-between">
+		<div class="left-home">
+			<div class="wrapper home">
+				<div class="home-title">{{ page.home-title }}</div>
+				<div class="name text">Montier Kess</div>
+				<section class="info-stack">
+					<div class="frow justify-between">
+						<div class="info-col">
+							<div class="info-col-title">Skills</div>
+							<ul>
+								{% for item in page.skills %}
+								<li>{{ item.skill-item }}</li>
+								{% endfor %}
+							</ul>
+						</div>
+						<div class="info-col">
+							<div class="info-col-title">Recent Work</div>
+							<ul>
+								{% for item in page.recent-work %}
+								<li>{{ item.work }}</li>
+								{% endfor %}
+							</ul>
+						</div>
+						<div class="info-col">
+							<div class="info-col-title">Contact</div>
+							<ul>
+								{% for item in page.contact-info %}
+								<li><a href="{{ item.link }}" target="_blank">{{ item.contact }}</a></li>
+								
+								{% endfor %}
+							</ul>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+		<section class="home-projects">
+			{% include beta-selected-projects.html %}
+		</section>
+	</div>
+</body>
+{% include footer.html%}
