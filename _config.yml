@@ -9,3 +9,16 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 theme: minima
 plugins:
   - jekyll-feed
+
+collections:
+  selected-projects:
+    output: false
+  content-series:
+    output: false
+
+instagram: https://www.instagram.com/montierkess.com
+linkedin: https://www.linkedin.com/in/mkess
+company: https://www.svncrwns.com
+resume: https://www.dropbox.com/s/gigeljd1e9t246l/2019%20-%20Resume%20-%20Montier%20Kess%20-%20Atlanta.pdf?dl=0
+
+encoding: utf-8
