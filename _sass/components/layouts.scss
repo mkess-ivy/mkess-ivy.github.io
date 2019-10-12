@@ -81,6 +81,15 @@ body.white-bg {
 			font-size: 14px;
 			line-height: 24px;
 
+			a {
+				&:hover {
+					color: $green;
+				}
+				&:visited {
+					color: $black;
+				}
+			}
+
 			@include tablet {
 				line-height: 22px;
 			}
