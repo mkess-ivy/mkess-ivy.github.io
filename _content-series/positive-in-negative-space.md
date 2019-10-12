@@ -3,5 +3,5 @@ title: Run DMC
 link: https://www.instagram.com/p/Be6d6IagseE/
 image: "/img/posts/positive-in-negative-space.jpg"
 type: instagram
-sequence: "10"
+priority: "10"
 ---

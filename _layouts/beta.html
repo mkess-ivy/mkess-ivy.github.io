@@ -10,7 +10,7 @@
 		<div class="beta-summary">{{ page.beta-summary }}</div>
 		<section class="content">
 			<div class="frow justify-start">
-				{% assign series = site.content-series %}
+				{% assign series = site.content-series | sort: 'priority' %}
 
 				{% for item in series %}
 				
