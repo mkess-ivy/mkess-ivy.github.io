@@ -408,6 +408,13 @@ ul.rotate-established {
 .content {
   margin-top: 125px;
 
+  @include desktop {
+    padding: 0 50px;
+  }
+  @include standard {
+    padding: 0 75px;
+  }
+
   .content-image {
     width: 100%;
     background-size: cover;
