@@ -1,17 +1,5 @@
 $(document).ready(function(){
 	
-    // Selected Projects Overlay Functionality
-    // $(function() {
-        // $(".js-click-overlay").click(function() {
-            // traverse upwards to find .item then find the project overlay
-            // $(this).parents(".item").find(".js-project-overlay").addClass("js-project-overlay-open");
-        // });
-
-        // $(".js-close").click(function() {
-            // traverse upwards again to find the project overlay then close it
-            // $(this).parents(".js-project-overlay").removeClass("js-project-overlay-open");
-        // });
-    // })
     $(function() {
         $(".js-click-overlay").on('click touch', function() {
             // traverse upwards to find .item then find the project overlay
