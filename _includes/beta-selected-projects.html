@@ -1,55 +1,54 @@
-{% assign selected-projects = site.selected-projects | sort: 'priority' %}
-{% for item in selected-projects %}
-{% unless item.title == "Contact" or item.title == "Content Series" %}
-<div class="item">
-    <div class="outer-box">
-    	<div class="selected-project-image" style="background-image:url('{{ item.bg-img }}');">
-    		<img src="{{ item.project-img }}" class="{{ item.type }}" />
-    	</div>
-    	<div class="inner-box js-project-overlay">
-    		<div class="item-title">{{ item.title }}</div>
-        	{{ item.content }}
-        	<div class="close js-close">Close</div>
-      	</div>
+{% for item in site.selected-projects %}
+    {% unless item.title == "Contact" or item.title == "Content Series" %}
+    <div class="item">
+        <div class="outer-box">
+        	<div class="selected-project-image" style="background-image:url('{{ item.bg-img }}');">
+        		<img src="{{ item.project-img }}" class="{{ item.type }}" />
+        	</div>
+        	<div class="inner-box js-project-overlay">
+        		<div class="item-title">{{ item.title }}</div>
+            	{{ item.content }}
+            	<div class="close js-close">Close</div>
+          	</div>
+        </div>
+        <div class="read-more js-click-overlay">Read More</div>
+        <div class="project-name-title">{{ item.title }}</div>
     </div>
-    <div class="read-more js-click-overlay">Read More</div>
-    <div class="project-name-title">{{ item.title }}</div>
-</div>
-{% endunless %}
+    {% endunless %}
 
-{% if item.title == "Content Series" %}
-<div class="item">
-    <div class="outer-box">
-        <div class="selected-project-image content-series-section" style="background-image:url('{{ item.bg-img }}');">
-            <div class="content-project-title">Content Series</div>
-            <div class="content-project-subtitle">Business x Culture Intersections</div>
-            <div class="content-project-summary">A collection of media sharing insights on building enterprises, capitalism and strategy for longevity in the game of business</div>
-            <img src="{{ item.project-img }}" class="content-cover-img" />
-            <a href="{{ site.baseurl }}/content-series" class="content-project-link"><div>View Content Series</div></a>
+    {% if item.title == "Content Series" %}
+    <div class="item">
+        <div class="outer-box">
+            <div class="selected-project-image content-series-section" style="background-image:url('{{ item.bg-img }}');">
+                <div class="content-project-title">Content Series</div>
+                <div class="content-project-subtitle">Business x Culture Intersections</div>
+                <div class="content-project-summary">A collection of media sharing insights on building enterprises, capitalism and strategy for longevity in the game of business</div>
+                <img src="{{ item.project-img }}" class="content-cover-img" />
+                <a href="{{ site.baseurl }}/content-series" class="content-project-link"><div>View Content Series</div></a>
+            </div>
+        </div>
+
+    </div>
+    {% endif %}
+
+    {% if item.title == "Contact"%}
+    <div class="project-item" style="background-color: #000;">
+        <div class="home-contact-section">
+            <img src="/img/bolt.png" class="contact-bolt">
+            <div class="contact-title">contact me</div>
+            <div class="contact-info">
+                <a href="mailto:{{ site.email }}" target="_blank">montier@svncrwns.com</a><br/>
+                <a href="{{ site.instagram }}" target="_blank">@montierkess.co</a>
+            </div>
+            <div class="contact-footer">
+                <img src="/img/bolt-small.png" />
+                <ul>
+                    <li><a href="{{ site.linkedin }}" target="_blank">linkedin</a></li>
+                    <li><a href="{{ site.company }}" target="_blank">svncrwns</a></li>
+                    <li><a href="{{ site.resume }}" target="_blank">resume</a></li>
+                </ul>
+            </div>
         </div>
     </div>
-
-</div>
-{% endif %}
-
-{% if item.title == "Contact"%}
-<div class="project-item" style="background-color: #000;">
-    <div class="home-contact-section">
-        <img src="/img/bolt.png" class="contact-bolt">
-        <div class="contact-title">contact me</div>
-        <div class="contact-info">
-            <a href="mailto:{{ site.email }}" target="_blank">montier@svncrwns.com</a><br/>
-            <a href="{{ site.instagram }}" target="_blank">@montierkess.co</a>
-        </div>
-        <div class="contact-footer">
-            <img src="/img/bolt-small.png" />
-            <ul>
-                <li><a href="{{ site.linkedin }}" target="_blank">linkedin</a></li>
-                <li><a href="{{ site.company }}" target="_blank">svncrwns</a></li>
-                <li><a href="{{ site.resume }}" target="_blank">resume</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-{% endif %}
+    {% endif %}
 {% endfor %}
