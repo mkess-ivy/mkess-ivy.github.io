@@ -1,0 +1,222 @@
+.outer-box {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  
+	img.phone {
+    width: 180px;  
+  	height: auto;
+  	text-align: center;
+  	padding: 95px 0;
+
+    @include palm {
+      width: 220px;
+      padding: 50px 0;
+    }
+    @include tablet {
+      width: 260px;
+      padding: 95px 0;
+    }
+    @include desktop {
+      width: 245px;
+    }
+	}
+  img.other {
+    width: 275px;
+    height: auto;
+    text-align: center;
+    padding: 95px 0;
+
+    @include tablet {
+      width: 355px;
+      padding: 75px 0;
+    }
+  }
+
+	.inner-box {
+  	background: $white;
+  	height: 100%;
+  	width: 100%;
+  	opacity: 0;
+  	top: 0;
+  	left: 0;
+  	position: absolute;
+  	padding: 90px 45px 0 50px;
+  	transition: opacity .5s;
+  	
+
+    @include palm {
+      padding: 95px 45px 0 50px;
+    }
+
+    @include tablet {
+      padding: 125px 125px 0 125px;
+    }
+
+    @include desktop {
+      padding: 100px 50px 0 30px;
+    }
+
+    @include standard {
+      padding: 125px 70px 0 50px;
+    }
+    @include tv {
+      padding: 125px 100px 50px;
+    }
+
+		p {
+			color: $black;
+			text-align: left;
+			font-size: 13px;
+			line-height: 1.6;
+
+      @include palm {
+        font-size: 16px;
+        line-height: 1.4;
+      }
+
+			a {
+				margin-bottom: 10px;
+				display: inline-block;
+
+        &:hover {
+          color: $blue;
+        }
+			}
+		}
+	}
+}
+.js-project-overlay-open {
+  opacity: 1 !important;
+}
+.selected-project-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: $blue;
+  width: 100%;
+  height: 575px;
+  display: block;
+  position: relative;
+  text-align: center;
+
+  @include tablet {
+    height: 675px;
+  }
+}
+.read-more, .project-name-title {
+  border-bottom: 1px solid;
+  display: inline-block;
+  padding-bottom: 4px;
+  position: absolute;
+  bottom: 20px;
+  right: 25px;
+  font-size: 14px;
+  color: white;
+
+  @include small {
+    right: 50px;
+    font-size: 16px;
+  }
+
+  @include tablet {
+    right: 125px;
+  }
+  @include desktop {
+    right: 25px;
+  }
+  @include standard {
+    font-size: 20px;
+    right: 50px;
+  }
+}
+.read-more-black {
+  color: $black !important;
+}
+.close {
+  font-size: 10px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  text-align: center;
+  top: 30px;
+  text-transform: uppercase;
+  font-style: italic;
+  z-index: 100009;
+  border: 1px solid;
+  width: 90px;
+  padding: 7px 0;
+  margin: auto;
+}
+.item {
+  position: relative;
+}
+.project-name-title {
+	left: 25px;
+  font-size: 14px;
+	border-bottom: 0;
+	right: auto;
+
+  @include small {
+    left: 50px;
+    font-size: 16px;
+  }
+
+  @include tablet {
+    left: 125px;
+  }
+  @include desktop {
+    left: 25px;
+  }
+  @include standard {
+    font-size: 20px;
+    left: 50px;
+  }
+}
+.item-title {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 15px;
+
+  @include palm {
+    font-size: 28px;
+  }
+}
+.hello {
+	padding: 215px 0;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+// Work Page
+.projects-work-wrapper {
+  .item {
+    width: 100%;
+
+    @include tablet {
+      width:50%;
+    }
+
+    @include standard {
+      width: 33.33%;
+    }
+  }
+  .read-more {
+    @include tablet {
+      right: 25px;
+    }
+  }
+  .project-name-title  {
+    @include tablet {
+      left: 25px;
+    }
+  }
+  .outer-box .inner-box {
+    @include tablet {
+      padding: 90px 35px 0 30px;
+    }
+  }
+
+}

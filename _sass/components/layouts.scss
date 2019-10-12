@@ -1,0 +1,676 @@
+.wrapper {
+	padding: 25px;
+
+	@include tablet {
+		padding: 40px;
+	}
+	@include desktop {
+		padding: 40px 40px 40px 80px;
+	}
+
+	&.home {
+		padding: 25px;
+
+		@include tablet {
+			padding: 40px;
+		}		
+	}
+
+	&.menu {
+		padding: 75px 30px 0;
+	}
+
+	&.single-thoughts {
+		@include tablet {
+			padding: 40px;
+			width: 75%;
+			margin: auto;
+			max-width: 775px;
+		}
+		@include standard {
+			max-width: 950px;
+		}
+	}
+	&.top {
+		padding-top: 0;
+	}
+}
+body.gradient {
+	background: linear-gradient(180deg, rgba(70,250,197,1) 0%, rgba(157,123,255,1) 100%);
+}
+body.gradient002 {
+	background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(70,250,197,1) 100%);
+}
+body.white-bg {
+	background-color: $white;
+}
+
+// Home Page
+.home-title {
+	font-size: 26px;
+	letter-spacing: 0.5;
+	padding-bottom: 50px;
+	max-width: 400px;
+
+	@include tablet {
+		font-size: 36px;
+		max-width: 575px;
+	}
+	@include desktop {
+		margin-top: 13vh;
+	}
+}
+
+.info-stack {
+	.info-col {
+		padding-bottom: 25px;
+		width: 100%;
+
+		@include tablet {
+			width: 31%;
+			padding-bottom: 0;
+		}
+		@include desktop {
+			width: 29%;
+		}
+		.info-col-title {
+			font-weight: 600;
+			padding-bottom: 5px;
+		}
+		li {
+			font-size: 14px;
+			line-height: 24px;
+
+			@include tablet {
+				line-height: 22px;
+			}
+
+			@include desktop {
+				font-size: 12px;
+				line-height: 16px;
+			}
+
+			@include standard {
+				font-size: 14px;
+				line-height: 20px;
+			}
+		}
+	}
+}
+
+// selected projects
+.home-projects {
+	width: 100%;
+}
+.project-item {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.project-image {
+	padding: 125px 35px 30px;
+	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.project-links ul {
+	padding: 0 20px 30px;
+	margin-bottom: 0;
+
+	@include tablet {
+		width: 75%;
+		margin: auto;
+	}
+
+	&.white-text {
+		color: $white;
+	}
+	&.white-text a {
+		color: $white;
+	}
+
+	li {
+		display: inline-block;
+	}
+	li:first-child { font-weight: 500; }
+}
+.home-contact-section {
+	text-align: center;
+	color: $white;
+	padding: 75px 0 25px;
+
+	.contact-bolt {
+		padding-bottom: 50px;
+	}
+	.contact-title {
+		font-size: 26px;
+		text-transform: uppercase;
+		font-style: italic;
+		letter-spacing: 3;
+		font-weight: 600;
+		padding-bottom: 75px;
+	}
+	.contact-info a {
+		color: $white;
+		border-bottom: 0;
+		font-size: 16px;
+		line-height: 28px;
+		letter-spacing: 0.5;
+
+		@include tablet {
+			font-size: 20px;
+		}
+
+		&:hover {
+			border-bottom: 1px solid;
+		}
+	}
+	.contact-info {
+		padding-bottom: 100px;
+	}
+	.contact-footer ul {
+		padding-top: 15px;
+		padding-bottom: 30px;
+
+		@include desktop {
+			margin-bottom: 0px;
+		}
+
+		li {
+			@include tablet {
+				display: inline;
+				padding-right: 20px;
+			}
+		}
+	}
+	.contact-footer ul li a {
+		color: $white;
+		border-bottom: 0;
+		text-transform: uppercase;
+		font-size: 14px;
+		line-height: 22px;
+		letter-spacing: 0.5;
+
+		&:hover {
+			border-bottom: 1px solid;
+		}
+	}
+}
+
+// About Page
+.page-title {
+	font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: italic;
+    padding-bottom: 75px;
+    text-shadow:
+    -1px -1px 0 $blue,
+    1px -1px 0 $blue,
+    -1px 1px 0 $blue,
+    1px 1px 0 $blue;
+    color: $green;
+    letter-spacing: 2.5;
+
+    @include tablet {
+    	font-size: 50px;
+    }
+    @include desktop {
+    	text-align: left;
+    	font-size: 50px;
+    }
+
+    &.thoughts {
+    	color: $white-blue;
+    }
+    &.work {
+    	@include tablet {
+    		font-size: 42px;
+    		padding-left: 30px;
+    		padding-bottom: 25px;	
+    	}
+    	@include desktop {
+    		padding-left: 80px;
+    		font-size: 40px;
+    		color: $turqblue;
+    	}
+    }
+}
+.center-page-title {
+	text-align: center;
+	padding-bottom: 0;
+}
+.beta-title {
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	font-style: italic;
+	letter-spacing: 1px;
+}
+.about-prime {
+	font-size: 24px;
+	letter-spacing: 0.5;
+
+	@include tablet {
+		max-width: 575px;
+		font-size: 28px;
+	}
+}
+.about-secondary {
+	font-size: 20px;
+	line-height: 28px;
+	letter-spacing: 0.5;
+
+	@include tablet {
+		max-width: 575px;
+		font-size: 22px;
+		line-height: 32px;
+	}
+
+	@include desktop {
+		width: 50%;
+		position: relative;
+	}
+	@include standard {
+		width: 52%;
+		max-width: none;
+	}
+
+	div {
+		font-weight: 500;
+    	text-transform: uppercase;
+    	font-style: italic;
+	}
+}
+.experience {
+	padding: 40px 0 0;
+	position: relative;
+
+	@include tablet {
+		width: 47%;
+		margin-left: 75px;
+	}
+	@include desktop {
+		padding: 0px 0 30px;
+		width: 36%;
+	}
+	@include standard {
+		padding: 0 75px 30px 0;
+	}
+	.experience-header {
+		display: none;
+		@include tablet {
+			transform: rotate(-90deg);
+		    position: absolute;
+		    display: block;
+		    left: -170px;
+		    top: 28vh;
+		    font-size: 65px;
+		    text-transform: uppercase;
+		    font-style: italic;
+		    font-weight: 600;
+		    text-shadow:
+    			-1px -1px 0 $blue,
+    			1px -1px 0 $blue,
+    			-1px 1px 0 $blue,
+    			1px 1px 0 $blue;
+		    letter-spacing: 4.5;
+		}
+
+		@include desktop {
+			top: 23vh;
+		}
+	}
+}
+
+// Work Page
+.logo-item {
+	border-bottom: 1px solid $black;
+	padding-bottom: 15px;
+	text-align: center;
+	width: 100%;
+
+	@include tablet {
+		width: 50%;
+		border-bottom:0;
+	}
+	@include standard {
+		width: 24%;
+	}
+
+	&:last-child {
+		border-bottom:0;
+	}
+}
+.projects-work-wrapper {
+	margin-bottom: 10px;
+
+	@include desktop {
+		margin-bottom: 40px;
+	}
+	.project-item {
+		width: 100%;
+
+		@include tablet {
+			width: 50%;
+		}
+		@include standard {
+			width: 33.33%;
+		}
+	}
+}
+
+// Contact Page
+.contact-option {
+	text-align: center;
+	padding-bottom: 50px;
+	width: 100%;
+
+	@include tablet {
+		width: 33%;
+		padding-right: 25px;
+	}
+	@include desktop {
+		padding-bottom: 25px;
+	}
+	@include standard {
+		width: 20%;
+	}
+}
+.contact-me {
+	text-align: center;
+	padding: 75px 0;
+
+	@include standard {
+		padding: 175px 0 75px;
+	}
+}
+.contact-bolt {
+	padding-bottom: 60px;
+}
+.contact-title {
+	font-weight: 600;
+	text-transform: uppercase;
+	font-style: italic;
+	letter-spacing: 1.5;
+	font-size: 32px;
+	padding-bottom: 75px;
+}
+.contact-info {
+	font-size: 20px;
+	line-height: 30px;
+	padding-bottom: 75px;
+
+	a {
+		border-bottom: 0;
+
+		&:hover {
+			border-bottom: 1px solid;
+		}
+	}
+}
+.contact-text {
+	@include standard {
+		font-size: 18px;
+	}
+}
+.small-bolt {
+	padding-bottom: 20px;
+}
+.contact-menu {
+	text-transform: uppercase;
+	line-height: 24px;
+
+	ul li {
+		@include tablet {
+			display: inline;
+			padding-right: 20px;
+		}
+	}
+
+	a {
+		border-bottom: 0;
+
+		&:hover {
+			border-bottom: 1px solid;
+		}
+	}
+}
+
+// 2 column home
+.left-home {
+	@include desktop {
+		width: 60%;
+		position: fixed;
+		background: linear-gradient(180deg, rgba(70,250,197,1) 0%, rgba(157,123,255,1) 100%);
+		top: 0;
+		height: 100vh;
+	}
+}
+.home-projects {
+	@include desktop {
+		width: 40%;
+	    top: 0;
+	    position: absolute;
+	    right: 0;
+	}
+}
+
+// Single Thoughts Page Layout
+.page-title.thoughts.single {
+	font-size: 32px;
+	padding-bottom: 15px;
+	text-align: center;
+
+	@include palm {
+		padding: 0 7px 15px;
+	}
+	@include tablet {
+		width: 100%;
+		margin: auto;
+		font-size: 36px;
+	}
+	@include desktop {
+		width: 85%;
+		font-size: 42px;
+	}
+	@include standard {
+		width: 75%;
+	}
+}
+.post-date {
+	text-align: center;
+	font-weight: 500;
+	margin-bottom: 50px;
+}
+.text-entry {
+	font-size: 18px;
+	line-height: 28px;
+	padding-right: 30px;
+
+	@include palm {
+		padding: 0 30px;
+	}
+	@include standard {
+		font-size: 20px;
+		line-height: 32px;
+	}
+}
+.quote-entry {
+	margin: 125px 0 75px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	padding: 50px 5px;
+	color: $blue;
+	font-size: 28px;
+	line-height: 32px;
+	font-weight: 500;
+	text-align: center;
+
+	@include palm {
+		width: 90%;
+		margin: 125px auto 75px;
+	}
+	@include tablet {
+		font-size: 32px;
+		line-height: initial;
+	}
+	span {
+		display: block;
+		padding-top: 30px;
+		font-weight: 300;
+		font-size: 18px;
+	}
+}
+.post-video {
+	background-image: url('/img/post-video-bg.jpg');
+	background-repeat: no-repeat; 
+	background-position: center;
+	background-size:cover; 
+	width:100%;
+	min-height: 40vh;
+	position: relative;
+	margin-bottom: 50px;
+
+	@include palm {
+		min-height: 45vh;
+	}
+	@include desktop {
+		min-height: 55vh;
+	}
+	.video-item {
+		@include palm {
+			max-width: 500px;
+			margin: auto;
+		}
+		@include tablet {
+			max-width: 600px;
+		}
+		@include desktop {
+			max-width: 750px;
+		}
+	}
+}
+.content-title-section {
+	position: absolute;
+	bottom: 10px;
+	left: 15px;
+	text-transform: uppercase;
+	font-weight: 700;
+
+	@include tablet {
+		transform: rotate(-90deg);
+		-webkit-transform: rotate(-90deg);
+		bottom: 110px;
+		left: -65px;
+	}
+	.content-title-alpha {
+		color: $white;
+	}
+	.content-title-beta {
+		font-size: 24px;
+		letter-spacing: 1.5px;
+		text-shadow:
+    		-1px -1px 0 $white,
+    		1px -1px 0 $white,
+    		-1px 1px 0 $white,
+    		1px 1px 0 $white;
+	}
+}
+.video-item {
+	padding: 35px 0 0;
+
+	div {
+		width: 90%;
+		margin: auto;
+	}
+}
+.extra-title {
+	padding: 0 0 25px;
+    border-bottom: 1px solid $blue;
+    margin: 75px 0 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 32px;
+    text-shadow:
+    -1px -1px 0 $blue,
+    1px -1px 0 $blue,
+    -1px 1px 0 $blue,
+    1px 1px 0 $blue;
+	letter-spacing: 1.5px;
+}
+.gallery-image {
+	padding: 0 15px 25px 0;
+	width: 33%;
+}
+.more-posts {
+	margin-bottom: 75px;
+	.more-posts-item {
+		padding-bottom: 30px;
+
+		@include tablet {
+			width: 70%;
+		}
+		@include desktop {
+			width: 33%;
+			padding-right: 30px;
+		}
+
+		.more-posts-title {
+			font-size: 20px;
+
+			@include desktop {
+				font-size: 14px;
+				line-height: 1.4;
+				min-height: 50px;
+				padding-bottom: 20px;
+			}
+			@include standard {
+				min-height: 75px;
+			}
+
+			a {
+				border-bottom:0;
+
+				&:hover {
+					border-bottom: 1px solid;
+				}
+			}
+		}
+		.more-posts-img {
+			display: none;
+			@include desktop {
+				display: block;
+				background-size: cover;
+			    background-position: center;
+			    height: 20vh;
+			    width: 100%;
+			    background-repeat: no-repeat;	
+			}
+			@include standard {
+				height: 27vh;
+			}
+		}
+	}
+}
+
+@supports((text-stroke: 1px) or (-webkit-text-stroke: 1px)) {
+    .page-title.thoughts.single,
+    .extra-title,
+    .page-title,
+    .experience-header {
+        color: transparent;
+        -webkit-text-stroke: 1px $blue;
+        text-stroke: 1px $blue;
+        text-shadow: none !important;
+    }
+    .content-title-beta, .content-project-title {
+        color: transparent;
+        -webkit-text-stroke: 1px $white;
+        text-stroke: 1px $white;
+        text-shadow: none !important;
+    }
+
+}

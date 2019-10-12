@@ -1,0 +1,97 @@
+@import 'helper/media_queries';
+@import 'helper/variables';
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Basic styling
+ */
+body {
+  font-family: Montserrat, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #000;
+  background: rgb(70,250,197);
+  // background: linear-gradient(180deg, rgba(70,250,197,1) 0%, rgba(157,123,255,1) 100%);
+  -webkit-text-size-adjust: 100%;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+  margin-bottom: $spacing-unit / 2;
+}
+
+ul, li {
+  list-style: none;
+}
+
+/**
+ * Images
+ */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/**
+* Links
+**/
+a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid;
+
+  &:visited {
+    color: darken(#000, 15%);
+  }
+
+  &:hover {
+    color: #000;
+    border-bottom: 1px solid;
+  }
+}
+a.no-line {
+  &:hover {
+    border-bottom: 0;
+  }
+}
+
+/**
+ * Clearfix
+**/
+%clearfix {
+  *zoom: 1;
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+.clear:after {
+    clear: both;
+}

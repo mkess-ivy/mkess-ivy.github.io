@@ -1,0 +1,107 @@
+/* No Scroll w/ Overlay Present */
+body.noScroll {
+  overflow: hidden;
+}
+
+/* Header & Overlay Menu */
+.menuButton {
+  text-indent: 0;
+  color: $white;
+  position: relative;
+  background-color: transparent;
+  border: none;
+  width: 36px;
+}
+.menuButton:hover {
+  -o-transition:.75s;
+  -ms-transition:.75s;
+  -moz-transition:.75s;
+  -webkit-transition:.75s;
+  transition:.75s;
+}
+.menuButton:active {
+  position: relative;
+}
+#overlay-menu {
+  margin: 10px;
+  background-color: transparent;
+  border-color: transparent;
+  position: fixed;
+  bottom: 5%;
+  left: 0px;
+  z-index: 7000;
+}
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center center;
+  background-color: $white;
+  z-index: 9009;
+  overflow: scroll;
+
+  @include desktop {
+    width: 40%;
+    right: 0;
+    left: auto;
+  }
+}
+.overlay nav {
+    width: 100%;
+
+}
+.overlay ul {
+  list-style: none;
+  padding: 40px 0 0;
+
+  li {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+}
+.overlay ul li a {
+  text-decoration: none;
+  color: $white;
+  font-weight: 700;
+  border-bottom: 0;
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 2;
+  text-shadow:
+    -1px -1px 0 $black,
+    1px -1px 0 $black,
+    -1px 1px 0 $black,
+    1px 1px 0 $black;
+
+    &:hover {
+      color: $blue;
+    }
+}
+.overlay-close {
+  width: 40px;
+  height: 35px;
+  position: fixed;
+  overflow: hidden;
+  border: 0 !important;
+  background-color: transparent !important;
+  z-index: 7000;
+  bottom: 5%;
+  margin: 10px;
+}
+.overlay-data {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+  transition: opacity 0.5s, visibility 0s 0.5s;
+}
+.overlay-open {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
