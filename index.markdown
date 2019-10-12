@@ -5,7 +5,7 @@ permalink: "/"
 
 home-title: Designer & developer for digital platforms, systems & business processes for modern brands.
 
-seo-description: Montier Kess - Home, a description of skills, experience and latest projects for Montier Kess, a woman engineer and entrepreneur
+seo-description: Montier Kess - a portfolio of experience and projects from Montier Kess
 seo-keywords: systems analyst, systems architect, business operations, business operator, industrial engineer, morgan state university, montier kess, STEM, entrepreneurship, baltimore, baltimore marketing agency
 
 skills:

@@ -17,13 +17,13 @@
 
   <!-- Meta OG Tags -->
   <meta name="og:title" content="Montier Kess - Engineer & Entrepreneur" />
-  <meta property="og:url" content="https://www.montierkess.co" />
-  <meta property="og:image" content="img/og-img.jpg" />
+  <meta property="og:url" content="{{ "/" | relative_url }}" />
+  <meta property="og:image" content="/img/og-img.jpg" />
 
   <link rel="shortcut icon" href="/bolt.png" type="image/png" />
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.url }}">
+  <link rel="stylesheet" href="{{ "/" | relative_url }}css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}" />
 
