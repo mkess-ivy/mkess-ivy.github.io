@@ -10,9 +10,9 @@
 		<div class="beta-summary">{{ page.beta-summary }}</div>
 		<section class="content">
 			<div class="frow justify-start">
-				{% assign content-series = site.content-series | sort: 'sequence' %}
+				{% assign series = site.content-series | sort: 'sequence' %}
 
-				{% for item in content-series %}
+				{% for item in series %}
 				
 				{% if item.type == "instagram" %}
 				<div class="single-content js_scroll_reveal">
