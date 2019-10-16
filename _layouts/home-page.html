@@ -29,9 +29,9 @@
 						<div class="info-col">
 							<div class="info-col-title">Contact</div>
 							<ul>
+								<li><a href="mailto:{{ site.email }}">Email</a></li>
 								{% for item in page.contact-info %}
 								<li><a href="{{ item.link }}" target="_blank">{{ item.contact }}</a></li>
-								
 								{% endfor %}
 							</ul>
 						</div>

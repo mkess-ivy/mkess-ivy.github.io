@@ -277,7 +277,7 @@ body.white-bg { background-color: #fff; }
 
 .info-stack .info-col li { font-size: 14px; line-height: 24px; }
 
-.info-stack .info-col li a:hover { color: #50f2c9; }
+.info-stack .info-col li a:hover { color: #50f2c9 !important; }
 
 .info-stack .info-col li a:visited { color: #000; }
 

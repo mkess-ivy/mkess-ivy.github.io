@@ -26,12 +26,12 @@ recent-work:
 - work: HAVAS
 
 contact-info:
-- contact: Email
-  email: "montier@svncrwns.com"
-- contact: Instagram
-  link: "https://www.instagram.com/montierkess.co"
-- contact: Github
-  link: "https://www.github.com/mkess-ivy"
 - contact: LinkedIn
   link: "https://www.linkedin.com/in/mkess"
+- contact: Github
+  link: "https://www.github.com/mkess-ivy"
+- contact: Instagram
+  link: "https://www.instagram.com/montierkess.co"
+- contact: Resume
+  link: "https://www.dropbox.com/s/gigeljd1e9t246l/2019%20-%20Resume%20-%20Montier%20Kess%20-%20Atlanta.pdf?dl=0"
 ---
