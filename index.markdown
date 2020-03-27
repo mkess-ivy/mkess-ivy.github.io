@@ -3,13 +3,12 @@ layout: home-page
 title: "Home"
 permalink: "/"
 
-home-title: Designer & developer for digital platforms, systems & business processes for modern brands.
+home-title: Developer + Consultant that creates digital platforms, systems & business processes for modern brands.
 
 seo-description: Montier Kess - a portfolio of experience and projects from Montier Kess
 seo-keywords: systems analyst, systems architect, business operations, business operator, industrial engineer, morgan state university, montier kess, STEM, entrepreneurship, baltimore, baltimore marketing agency
 
 skills:
-- skill-item: Brand identities
 - skill-item: UI / UX Design
 - skill-item: Web Development
 - skill-item: Wordpress Theme Development
@@ -19,11 +18,15 @@ skills:
 - skill-item: Business Processes
 
 recent-work:
-- work: SVNCRWNS
 - work: Actionet / CMS
+- work: SVNCRWNS
 - work: Baltimore Museum of Art
 - work: Wunderman
 - work: HAVAS
+- work: L-Squared / NOAA
+- work: KSJ / DHHQ
+- work: NAVSEA
+- work: General Electric / MRAS
 
 contact-info:
 - contact: LinkedIn

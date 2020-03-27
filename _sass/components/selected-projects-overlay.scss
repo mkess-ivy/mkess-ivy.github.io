@@ -131,6 +131,9 @@
     right: 50px;
   }
 }
+.read-more:hover {
+  color: $green;
+}
 .read-more-black {
   color: $black !important;
 }
@@ -148,6 +151,10 @@
   width: 90px;
   padding: 7px 0;
   margin: auto;
+
+  &:hover {
+    color: $green;
+  }
 }
 .item {
   position: relative;

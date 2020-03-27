@@ -9,7 +9,7 @@
 	}
 
 	&.home {
-		padding: 25px;
+		padding: 10px 25px;
 
 		@include tablet {
 			padding: 40px;
@@ -52,16 +52,31 @@ body.white-bg {
 	padding-bottom: 50px;
 	max-width: 400px;
 
+	@include palm {
+		padding-bottom: 125px;
+	}
 	@include tablet {
 		font-size: 36px;
 		max-width: 575px;
 	}
 	@include desktop {
-		margin-top: 13vh;
+		margin-top: 6vh;
 	}
 }
 
 .info-stack {
+	@include desktop {
+		position: fixed;
+		bottom: 4vh;
+		width: 50%;
+	}
+	@include standard {
+		width: 60%;
+	}
+	@include widescreen {
+		width: 45%;
+	}
+
 	.info-col {
 		padding-bottom: 25px;
 		width: 100%;
@@ -83,7 +98,7 @@ body.white-bg {
 
 			a {
 				&:hover {
-					color: $green !important;
+					color: $blue !important;
 				}
 				&:visited {
 					color: $black;
@@ -173,6 +188,7 @@ body.white-bg {
 
 		&:hover {
 			border-bottom: 1px solid;
+			color: $green;
 		}
 	}
 	.contact-info {
@@ -203,6 +219,7 @@ body.white-bg {
 
 		&:hover {
 			border-bottom: 1px solid;
+			color: $green;
 		}
 	}
 }
@@ -453,7 +470,7 @@ body.white-bg {
 	@include desktop {
 		width: 60%;
 		position: fixed;
-		background: linear-gradient(180deg, rgba(70,250,197,1) 0%, rgba(157,123,255,1) 100%);
+		// background: linear-gradient(180deg, rgba(70,250,197,1) 0%, rgba(157,123,255,1) 100%);
 		top: 0;
 		height: 100vh;
 	}
@@ -464,6 +481,9 @@ body.white-bg {
 	    top: 0;
 	    position: absolute;
 	    right: 0;
+	}
+	@include standard {
+		width: 46%;
 	}
 }
 
