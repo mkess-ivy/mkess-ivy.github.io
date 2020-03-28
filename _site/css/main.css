@@ -211,13 +211,13 @@ ul.rotate-established li.est { width: 60px; height: 1px; background: #fff; margi
 
 @media screen and (min-width: 1024px) { .beta-summary { max-width: 650px; } }
 
-.content-project-title { color: #fff; text-transform: uppercase; padding: 40px 0 10px; font-size: 25px; font-weight: 700; font-style: italic; }
+.content-project-title, .content-author { color: #fff; text-transform: uppercase; padding: 40px 0 10px; font-size: 25px; font-weight: 700; font-style: italic; }
 
-@media screen and (min-width: 768px) { .content-project-title { font-size: 50px; } }
+@media screen and (min-width: 768px) { .content-project-title, .content-author { font-size: 50px; } }
 
-@media screen and (min-width: 1024px) { .content-project-title { font-size: 30px; letter-spacing: 0.5px; } }
+@media screen and (min-width: 1024px) { .content-project-title, .content-author { font-size: 30px; letter-spacing: 0.5px; } }
 
-@media screen and (min-width: 1200px) { .content-project-title { font-size: 36px; } }
+@media screen and (min-width: 1200px) { .content-project-title, .content-author { font-size: 36px; } }
 
 .content-project-subtitle { color: #fff; font-weight: 500; letter-spacing: 1px; padding-bottom: 20px; font-size: 14px; }
 
@@ -534,7 +534,7 @@ body.white-bg { background-color: #fff; }
 @media screen and (min-width: 1200px) { .more-posts .more-posts-item .more-posts-img { height: 27vh; } }
 
 @supports (text-stroke: 1px) or (-webkit-text-stroke: 1px) { .page-title.thoughts.single, .extra-title, .page-title, .experience-header { color: transparent; -webkit-text-stroke: 1px #0059DD; text-stroke: 1px #0059DD; text-shadow: none !important; }
-  .content-title-beta, .content-project-title { color: transparent; -webkit-text-stroke: 1px #fff; text-stroke: 1px #fff; text-shadow: none !important; } }
+  .content-title-beta, .content-project-title, .content-author { color: transparent; -webkit-text-stroke: 1px #fff; text-stroke: 1px #fff; text-shadow: none !important; } }
 
 /* No Scroll w/ Overlay Present */
 body.noScroll { overflow: hidden; }
@@ -607,6 +607,8 @@ body.noScroll { overflow: hidden; }
 .selected-project-image { background-size: cover; background-position: center; background-repeat: no-repeat; background-color: #0059DD; width: 100%; height: 575px; display: block; position: relative; text-align: center; }
 
 @media screen and (min-width: 768px) { .selected-project-image { height: 675px; } }
+
+.quote-section { width: 75%; margin: auto; }
 
 .read-more, .project-name-title { border-bottom: 1px solid; display: inline-block; padding-bottom: 4px; position: absolute; bottom: 20px; right: 25px; font-size: 14px; color: white; }
 

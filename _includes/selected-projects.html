@@ -1,6 +1,6 @@
 {% assign projects = site.selected-projects | sort: 'priority' %}
 {% for item in projects %}
-    {% unless item.title == "Contact" or item.title == "Content Series" %}
+    {% unless item.title == "Contact" or item.title == "Content Series" or item.title == "Quote" %}
     <div class="item">
         <div class="outer-box">
         	<div class="selected-project-image" style="background-image:url('{{ item.bg-img }}');">
@@ -52,4 +52,21 @@
         </div>
     </div>
     {% endif %}
+
+    {% if item.title == "Quote" %}
+    <div class="item">
+        <div class="outer-box">
+            <div class="selected-project-image" style="background-image:url('{{ item.bg-img }}');">
+                <div class="quote-section">
+                    <div class="frow centered">
+                        <div class="content-project-title">{{ item.content }}</div>
+                        <div class="content-author">{{ item.author }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    {% endif %}
+
 {% endfor %}

@@ -607,6 +607,9 @@ ul.rotate-established {
     padding: 0 50px 30px;
   }
 }
+.content-author {
+  @extend .content-project-title;
+}
 .content-cover-img {
   width: 75%;
 
