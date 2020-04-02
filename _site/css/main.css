@@ -213,7 +213,7 @@ ul.rotate-established li.est { width: 60px; height: 1px; background: #fff; margi
 
 .content-project-title, .content-author { color: #fff; text-transform: uppercase; padding: 40px 0 10px; font-size: 25px; font-weight: 700; font-style: italic; }
 
-@media screen and (min-width: 768px) { .content-project-title, .content-author { font-size: 50px; } }
+@media screen and (min-width: 768px) { .content-project-title, .content-author { font-size: 42px; } }
 
 @media screen and (min-width: 1024px) { .content-project-title, .content-author { font-size: 30px; letter-spacing: 0.5px; } }
 
@@ -581,6 +581,16 @@ body.noScroll { overflow: hidden; }
 .outer-box img.other { width: 275px; height: auto; text-align: center; padding: 95px 0; }
 
 @media screen and (min-width: 768px) { .outer-box img.other { width: 355px; padding: 75px 0; } }
+
+.outer-box img.laptop { width: 275px; height: auto; text-align: center; padding: 150px 0; }
+
+@media screen and (min-width: 500px) { .outer-box img.laptop { width: 450px; padding: 110px 0; } }
+
+@media screen and (min-width: 768px) { .outer-box img.laptop { max-width: 650px; padding: 100px 0; } }
+
+@media screen and (min-width: 1024px) { .outer-box img.laptop { padding: 125px 0; width: 400px; } }
+
+@media screen and (min-width: 1320px) { .outer-box img.laptop { width: 600px; } }
 
 .outer-box .inner-box { background: #fff; height: 100%; width: 100%; opacity: 0; top: 0; left: 0; position: absolute; padding: 90px 45px 0 50px; transition: opacity .5s; }
 

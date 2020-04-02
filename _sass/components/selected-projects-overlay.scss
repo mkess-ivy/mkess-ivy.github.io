@@ -33,6 +33,28 @@
       padding: 75px 0;
     }
   }
+  img.laptop {
+    width: 275px;
+    height: auto;
+    text-align: center;
+    padding: 150px 0;
+
+    @include palm {
+      width: 450px;
+      padding: 110px 0;
+    }
+    @include tablet {
+      max-width: 650px;
+      padding: 100px 0;
+    }
+    @include desktop {
+     padding: 125px 0;
+     width: 400px;
+    }
+    @include widescreen {
+      width: 600px;
+    }
+  }
 
 	.inner-box {
   	background: $white;
