@@ -1,0 +1,16 @@
+{% include head.html %}
+
+{% include header.html %}
+
+<body class="white-bg">
+	{% include intro.html %}
+	
+	<div class="beta-title">{{ page.beta-title }}</div>
+	
+	<div class="wrapper">
+		<div class="beta-summary">{{ page.beta-summary }}</div>
+		{% include content-series.html %}
+	</div>
+</body>
+
+{% include footer.html%}

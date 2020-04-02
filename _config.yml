@@ -13,7 +13,7 @@ plugins:
 
 collections:
   selected-projects:
-    output: false
+    output: true
   content-series:
     output: false
 
