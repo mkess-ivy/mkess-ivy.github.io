@@ -3,13 +3,39 @@
 {% include header.html %}
 
 <body class="white-bg">
-	{% include intro.html %}
 	
-	<div class="beta-title">{{ page.beta-title }}</div>
+	
 	
 	<div class="wrapper">
-		<div class="beta-summary">{{ page.beta-summary }}</div>
-		{% include content-series.html %}
+		<div class="project-info">
+			<div class="project-title">{{ page.title }}</div>
+			<div class="project-description">{{ page.description }}</div>
+			<div class="line"></div>
+			<div class="skills-section">
+				<div class="skills-title">Skills Used:</div>
+				<div class="skills-list">
+					<ul>
+						{% for thing in page.skills %}
+						<li>{{ thing.item }}</li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		{{ page.content }}
+
+		<div class="related-section">
+			<div class="related-title">Related Projects</div>
+			<div class="related-item-wrapper">
+				{% for item in page.related-projects %}
+				<div class="related-item">
+					<img src="{{ item.related-project-img }}" />
+					<a class="related-project-link" href="{{ item.related-project-link }}"><div>{{ item.related-project-title }}</div></a>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
 	</div>
 </body>
 
