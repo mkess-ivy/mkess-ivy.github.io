@@ -5,7 +5,7 @@ bg-img: /img/projects/gwcc-bg-black.jpg
 project-img: /img/projects/gwcc.png
 type: phone
 priority: 4
-description: "<p>A partnership w/ Greenmount West Community Center, Baltimore Museum of Art & Mark Bradford provided resources for youth artists to explore STEAM programming and platforms and share their work.</p>
+description: "<p>A partnership w/ Greenmount West Community Center, Baltimore Museum of Art & Mark Bradford provided resources for youth artists to explore STEAM programming and platforms for sharing their work.</p>
 <p>Created two websites for Greenmount West Community Center & Noisy Tenants to share the work they are facilitating in the center.</p>
 <p>Designed website using Sketch & Prototyped with Marvel.  Developed using Jekyll with the SiteLeaf CMS User Interface.</p>"
 
@@ -33,18 +33,10 @@ related-projects:
   related-project-link: "/selected-projects/gwcc-x-bma/"
 ---
 
-{% include project-img-text.html img="/img/projects/gwcc-001.jpg" text="While working as a Front-end Developer at HAVAS, a digital agency located in Baltimore, MD and headquartered in France, I contributed to the redesign of Bertolli's website." %}
+{% include project-img-text.html img="/img/projects/gwcc-001.jpg" %}
 
-{% include project-img-text.html img="/img/projects/gwcc-002.jpg" text="The work was split across the web development team based on pages and features. My tasks included developing the following pages: How To's, Our Story, Media Press Releases & FAQs." %}
+{% include project-img-text.html img="/img/projects/gwcc-002.jpg" %}
 
-{% include project-img-text.html img="/img/projects/gwcc-003.jpg" text="The work was split across the web development team based on pages and features. My tasks included developing the following pages: How To's, Our Story, Media Press Releases & FAQs." %}
+{% include project-img-text.html img="/img/projects/nt-001.jpg"  %}
 
-{% include project-img-text.html img="/img/projects/gwcc-004.jpg" text="The work was split across the web development team based on pages and features. My tasks included developing the following pages: How To's, Our Story, Media Press Releases & FAQs." %}
-
-{% include project-img-text.html img="/img/projects/nt-001.jpg" text="While working as a Front-end Developer at HAVAS, a digital agency located in Baltimore, MD and headquartered in France, I contributed to the redesign of Bertolli's website." %}
-
-{% include project-img-text.html img="/img/projects/nt-002.jpg" text="The work was split across the web development team based on pages and features. My tasks included developing the following pages: How To's, Our Story, Media Press Releases & FAQs." %}
-
-{% include project-img-text.html img="/img/projects/nt-003.jpg" text="The work was split across the web development team based on pages and features. My tasks included developing the following pages: How To's, Our Story, Media Press Releases & FAQs." %}
-
-{% include project-img-text.html img="/img/projects/nt-004.jpg" text="The work was split across the web development team based on pages and features. My tasks included developing the following pages: How To's, Our Story, Media Press Releases & FAQs." %}
+{% include project-img-text.html img="/img/projects/nt-002.jpg" %}

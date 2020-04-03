@@ -5,7 +5,7 @@ bg-img: /img/projects/braneu-bg-white.jpg
 project-img: /img/projects/braneu.png
 type: other
 priority: 2
-description: "<p>Branëu is a clothing and lifestyle brand based in Los Angeles, California.  The concept for this brand lies in sourcing high quality fabrics, minimal design with a luxury feel for men and women.</p>
+description: "<p>Branëu is a luxury lifestyle brand based in Los Angeles, California.  The concept for this brand lies in sourcing high quality fabrics, minimal design with a luxury feel for men and women.</p>
 <p>Designed website on Squarespace Platform sharing the brand identity, culture and products for sale.  We also design a monthly newsletter and manage all website maintenance.</p>"
 
 skills:

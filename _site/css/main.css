@@ -271,7 +271,9 @@ ul.rotate-established li.est { width: 60px; height: 1px; background: #fff; margi
 
 @media screen and (min-width: 1024px) { .skills-section { padding-bottom: 30px; } }
 
-.project-img-wrapper { padding-bottom: 75px; }
+.project-img-wrapper { padding: 75px 0; }
+
+@media screen and (min-width: 1024px) { .project-img-wrapper { padding: 0 0 75px; } }
 
 .project-img-wrapper img { width: 100%; }
 
@@ -303,7 +305,9 @@ ul.rotate-established li.est { width: 60px; height: 1px; background: #fff; margi
 
 @media screen and (min-width: 1320px) { .related-section .related-item-wrapper { width: 90%; } }
 
-@media screen and (min-width: 1024px) { .related-section .related-item { width: 50%; padding-right: 35px; } }
+.related-section .related-item { padding-bottom: 60px; }
+
+@media screen and (min-width: 768px) { .related-section .related-item { width: 50%; padding-right: 35px; } }
 
 .related-section .related-project-link { padding-top: 10px; display: inline-block; text-transform: uppercase; font-weight: bold; font-size: 20px; text-decoration: none; border-bottom: 0; }
 

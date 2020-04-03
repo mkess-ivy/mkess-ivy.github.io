@@ -20,17 +20,11 @@ related-projects:
 - related-project-title: "GWCC x BMA"
   related-project-img: "/img/related-gwcc.png"
   related-project-link: "/selected-projects/gwcc/"
-- related-project-title: "Braneu"
+- related-project-title: "Bertolli"
   related-project-img: "/img/related-bertolli.png"
   related-project-link: "/selected-projects/bertolli/"
 ---
 
-{% include project-img-text.html img="/img/projects/bhmhs-001.png" text="While working as a Front-end Developer at HAVAS, a digital agency located in Baltimore, MD and headquartered in France, I contributed to the redesign of Bertolli's website." %}
+{% include project-img-text.html img="/img/projects/bhmhs-001.jpg" %}
 
-{% include project-img-text.html img="/img/projects/bhmhs-002.png" text="While working as a Front-end Developer at HAVAS, a digital agency located in Baltimore, MD and headquartered in France, I contributed to the redesign of Bertolli's website." %}
-
-{% include project-img-text.html img="/img/projects/bhmhs-003.png" text="While working as a Front-end Developer at HAVAS, a digital agency located in Baltimore, MD and headquartered in France, I contributed to the redesign of Bertolli's website." %}
-
-{% include project-img-text.html img="/img/projects/bhmhs-004.png" text="While working as a Front-end Developer at HAVAS, a digital agency located in Baltimore, MD and headquartered in France, I contributed to the redesign of Bertolli's website." %}
-
-{% include project-img-text.html img="/img/projects/bhmhs-005.png" text="While working as a Front-end Developer at HAVAS, a digital agency located in Baltimore, MD and headquartered in France, I contributed to the redesign of Bertolli's website." %}
+{% include project-img-text.html img="/img/projects/bhmhs-002.jpg" %}
