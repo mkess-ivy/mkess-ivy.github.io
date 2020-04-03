@@ -1,13 +1,31 @@
 ---
 title: Taylor's Barbershop
-
+layout: project
 project-img: /img/projects/taylors-barbershop.png
 type: phone
-read-color: "black"
 priority: 1
+description: "<p>Taylor's Barbershop is an upscale hair lounge based in Richmond, Virginia.  The space provides grooming services to men, women & kids.  Services include signature hair cuts, facials, coloring and special services for wedding parties.</p>
+<p>Designed website using the Squarespace Platform.  Features include appointment scheduling, selling products and sharing the barbershop culture.</p>"
+
+skills:
+- item: "UX/UI Design"
+- item: "E-commerce Web Development"
+
+project-links:
+- project-link: https://www.taylorbarbershop.com
+  project-link-title: Taylor's Website
+
+related-projects:
+- related-project-title: "Bertolli"
+  related-project-img: "/img/related-bertolli.png"
+  related-project-link: "/selected-projects/bertolli/"
+- related-project-title: "BHMHS"
+  related-project-img: "/img/related-bhmhs.png"
+  related-project-link: "/selected-projects/bhmhs/"
 ---
-<p>Taylor's Barbershop is an upscale hair lounge based in Richmond, Virginia.  The space provides grooming services to men, women & kids.  Services include signature hair cuts, facials, coloring and special services for wedding parties.</p>
-<p>Designed website using the Squarespace Platform.  Features include appointment scheduling, selling products and sharing the barbershop culture.</p>
-<p>
-	<a href="https://www.taylorbarbershop.com" alt="Taylor's Website" target="_blank">View Taylor's Barbershop Website</a><br/>
-</p>
+
+{% include project-img-text.html img="/img/projects/taylors-001.jpg" text="The original website was built on the Jekyll framework as a static website.  That framework presented some limitations as the barbershop expanded their service and product offerings." %}
+
+{% include project-img-text.html img="/img/projects/taylors-002.jpg" text="The Squarespace platform was chosen because of its easy to use interface that allows the client to maintain their website, as well as e-commerce and analytics options available all in one system." %}
+
+{% include project-img-text.html img="/img/projects/taylors-003.jpg" text="The website offers appointment scheduling, price list, barber team, newsletter signup and shares the culture of the barbershop space.  It gives our clients a snapshot of what they will experience once they enter the barbershop, as well as all the information needed to make their buying decision.	" %}

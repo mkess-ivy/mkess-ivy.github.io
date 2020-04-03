@@ -1,0 +1,5 @@
+<p class="project-links">
+    {% for item in page.project-links %}
+        <a href="{{ item.project-link }}" alt="{{ item.project-link-title }}" target="_blank">View {{ item.project-link-title }}</a><br/>
+    {% endfor %}
+</p>

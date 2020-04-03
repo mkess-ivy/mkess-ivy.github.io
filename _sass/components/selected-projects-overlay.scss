@@ -156,6 +156,10 @@
     font-size: 20px;
     right: 50px;
   }
+
+  &:visited {
+    color: $white;
+  }
 }
 .read-more:hover {
   color: $green;

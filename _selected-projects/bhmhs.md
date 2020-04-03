@@ -18,11 +18,11 @@ github-link:  https://github.com/mkess-ivy/bhm
 
 related-projects:
 - related-project-title: "GWCC x BMA"
-  related-project-img: "/img/related-gwcc.jpg"
+  related-project-img: "/img/related-gwcc.png"
   related-project-link: "/selected-projects/gwcc/"
 - related-project-title: "Braneu"
-  related-project-img: "/img/related-braneu.jpg"
-  related-project-link: "/selected-projects/braneu/"
+  related-project-img: "/img/related-bertolli.png"
+  related-project-link: "/selected-projects/bertolli/"
 ---
 
 {% include project-img-text.html img="/img/projects/bhmhs-001.png" text="While working as a Front-end Developer at HAVAS, a digital agency located in Baltimore, MD and headquartered in France, I contributed to the redesign of Bertolli's website." %}

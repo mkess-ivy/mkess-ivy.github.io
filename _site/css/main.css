@@ -253,7 +253,9 @@ ul.rotate-established li.est { width: 60px; height: 1px; background: #fff; margi
 
 .content-project-link:hover { color: #50f2c9; }
 
-.project-title { font-size: 40px; font-weight: bold; padding-bottom: 25px; }
+.project-title { font-size: 40px; font-weight: bold; padding-bottom: 25px; text-transform: uppercase; }
+
+@media screen and (min-width: 1024px) { .project-title { font-size: 60px; width: 40%; line-height: 1; } }
 
 .line { background: #d1cfcf; height: 1px; margin: 35px 0; }
 
@@ -267,13 +269,13 @@ ul.rotate-established li.est { width: 60px; height: 1px; background: #fff; margi
 
 @media screen and (min-width: 500px) { .skills-section { font-size: 20px; } }
 
-@media screen and (min-width: 1024px) { .skills-section { padding-bottom: 125px; } }
+@media screen and (min-width: 1024px) { .skills-section { padding-bottom: 30px; } }
 
 .project-img-wrapper { padding-bottom: 75px; }
 
-@media screen and (min-width: 1024px) { .project-img-wrapper { padding-bottom: 150px; } }
+.project-img-wrapper img { width: 100%; }
 
-@media screen and (min-width: 1200px) { .project-img-wrapper { width: 75%; margin: auto; } }
+@media screen and (min-width: 1024px) { .project-info { margin-top: 12vh; } }
 
 .project-description { padding-top: 30px; }
 
@@ -285,7 +287,33 @@ ul.rotate-established li.est { width: 60px; height: 1px; background: #fff; margi
 
 @media screen and (min-width: 1024px) { .project-description { width: 60%; } }
 
-.related-title { font-size: 24px; font-weight: bold; text-transform: uppercase; }
+@media screen and (min-width: 1320px) { .project-description { width: 55%; } }
+
+@media screen and (min-width: 768px) { .project-description.project-layout { width: 100%; padding-right: 50px; font-size: 16px; } }
+
+.related-title { font-size: 24px; font-weight: bold; text-transform: uppercase; padding-bottom: 40px; }
+
+@media screen and (min-width: 1024px) { .related-title { font-size: 40px; width: 30%; line-height: 1; } }
+
+@media screen and (min-width: 1200px) { .related-title { width: 25%; } }
+
+@media screen and (min-width: 1024px) { .related-section { padding: 75px 0; } }
+
+@media screen and (min-width: 1024px) { .related-section .related-item-wrapper { width: 80%; } }
+
+@media screen and (min-width: 1320px) { .related-section .related-item-wrapper { width: 90%; } }
+
+@media screen and (min-width: 1024px) { .related-section .related-item { width: 50%; padding-right: 35px; } }
+
+.related-section .related-project-link { padding-top: 10px; display: inline-block; text-transform: uppercase; font-weight: bold; font-size: 20px; text-decoration: none; border-bottom: 0; }
+
+.related-section .related-project-link:hover { color: #0059DD; }
+
+.project-links { padding-bottom: 50px; }
+
+.return-link div { text-transform: uppercase; font-weight: bold; font-size: 20px; background: #f4f4f4; width: 225px; padding: 7px 10px; }
+
+.return-link div:hover { color: #0059DD; }
 
 .wrapper { padding: 25px; }
 
@@ -663,6 +691,8 @@ body.noScroll { overflow: hidden; }
 @media screen and (min-width: 1024px) { .read-more, .project-name-title { right: 25px; } }
 
 @media screen and (min-width: 1200px) { .read-more, .project-name-title { font-size: 20px; right: 50px; } }
+
+.read-more:visited, .project-name-title:visited { color: #fff; }
 
 .read-more:hover { color: #50f2c9; }
 

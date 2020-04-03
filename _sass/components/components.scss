@@ -655,6 +655,13 @@ ul.rotate-established {
   font-size: 40px;
   font-weight: bold;
   padding-bottom: 25px;
+  text-transform: uppercase;
+
+  @include desktop {
+    font-size: 60px;
+    width: 40%;
+    line-height: 1;
+  }
 }
 .line {
   background: #d1cfcf;
@@ -678,18 +685,25 @@ ul.rotate-established {
     font-size: 20px;
   }
   @include desktop {
-    padding-bottom: 125px;
+    padding-bottom: 30px;
   }
 }
 .project-img-wrapper {
   padding-bottom: 75px;
 
   @include desktop {
-    padding-bottom: 150px;
+    // padding-bottom: 150px;
+    // width: 80%;
+    // margin: auto;
   }
-  @include standard {
-    width: 75%;
-    margin: auto;
+
+  img {
+    width: 100%;
+  }
+}
+.project-info {
+  @include desktop {
+    margin-top: 12vh;
   }
 }
 .project-description {
@@ -707,9 +721,84 @@ ul.rotate-established {
   @include desktop {
     width: 60%;
   }
+  @include standard {
+    // font-size: 24px;
+  }
+  @include widescreen {
+    width: 55%;
+  }
+
+  &.project-layout {
+    @include tablet {
+      width: 100%;
+      padding-right: 50px;
+      // margin: auto;
+      font-size: 16px;
+    }
+  }
 }
 .related-title {
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
+  padding-bottom: 40px;
+
+  @include desktop {
+    font-size: 40px;
+    width: 30%;
+    line-height: 1;
+
+  }
+  @include standard {
+    width: 25%;
+  }
+}
+.related-section {
+  @include desktop {
+    padding: 75px 0;
+  }
+  .related-item-wrapper {
+    @include desktop {
+      width:80%;
+    }
+    @include widescreen {
+      width: 90%;
+    }
+  }
+  .related-item {
+    @include desktop {
+      width: 50%;
+      padding-right: 35px;
+    }
+  }
+  .related-project-link {
+    padding-top: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 0;
+
+    &:hover {
+      color: $blue;
+    }
+  }
+}
+.project-links {
+  padding-bottom: 50px;
+}
+.return-link {
+  div {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    background: #f4f4f4;
+    width: 225px;
+    padding: 7px 10px;
+
+    &:hover {
+      color: $blue;
+    }
+  }
 }
