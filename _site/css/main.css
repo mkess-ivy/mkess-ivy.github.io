@@ -355,13 +355,13 @@ body.white-bg { background-color: #fff; }
 
 @media screen and (min-width: 768px) { .home-title { font-size: 36px; max-width: 575px; } }
 
-@media screen and (min-width: 1024px) { .home-title { margin-top: 6vh; } }
+@media screen and (min-width: 1024px) { .home-title { margin-top: 6vh; padding-bottom: 175px; } }
 
-@media screen and (min-width: 1024px) { .info-stack { position: fixed; bottom: 4vh; width: 50%; } }
+@media screen and (min-width: 1024px) { .info-stack { width: 50%; } }
 
 @media screen and (min-width: 1200px) { .info-stack { width: 60%; } }
 
-@media screen and (min-width: 1320px) { .info-stack { width: 45%; } }
+@media screen and (min-width: 1320px) { .info-stack { width: 80%; } }
 
 .info-stack .info-col { padding-bottom: 25px; width: 100%; }
 

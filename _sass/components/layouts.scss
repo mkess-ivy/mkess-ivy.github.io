@@ -61,20 +61,21 @@ body.white-bg {
 	}
 	@include desktop {
 		margin-top: 6vh;
+		padding-bottom: 175px;
 	}
 }
 
 .info-stack {
 	@include desktop {
-		position: fixed;
-		bottom: 4vh;
+		// position: fixed;
+		// bottom: 4vh;
 		width: 50%;
 	}
 	@include standard {
 		width: 60%;
 	}
 	@include widescreen {
-		width: 45%;
+		width: 80%;
 	}
 
 	.info-col {
