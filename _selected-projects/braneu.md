@@ -10,7 +10,6 @@ description: "<p>Branëu is a luxury lifestyle brand based in Los Angeles, Calif
 
 skills:
 - item: "UX/UI Design"
-- item: "Wordpress Development"
 - item: "E-commerce Web Development"
 
 project-links:
@@ -18,12 +17,12 @@ project-links:
   project-link-title: Braneu's Website
 
 related-projects:
+- related-project-title: "Taylor's Barbershop"
+  related-project-img: "/img/related-taylors.png"
+  related-project-link: "/selected-projects/taylors-barbershop/"
 - related-project-title: "BHMHS"
   related-project-img: "/img/related-bhmhs.png"
   related-project-link: "/selected-projects/bhmhs/"
-- related-project-title: "GWCC x BMA"
-  related-project-img: "/img/related-gwcc.png"
-  related-project-link: "/selected-projects/gwcc-x-bma/"
 ---
 
 {% include project-img-text.html img="/img/projects/braneu-001.jpg" %}

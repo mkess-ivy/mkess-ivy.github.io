@@ -11,7 +11,6 @@ description: "<p>While working as a Front-end Developer at HAVAS, a digital agen
 skills:
 - item: "UX/UI Design"
 - item: "Wordpress Development"
-- item: "E-commerce Web Development"
 
 project-links:
 - project-link: https://www.bertolli.com

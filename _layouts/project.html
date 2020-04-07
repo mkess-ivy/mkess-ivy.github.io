@@ -39,7 +39,7 @@
 					<div class="frow justify-start">
 					{% for item in page.related-projects %}
 						<div class="related-item">
-							<img src="{{ item.related-project-img }}" />
+							<a class="related-project-link" href="{{ item.related-project-link }}"><img src="{{ item.related-project-img }}" /></a>
 							<a class="related-project-link" href="{{ item.related-project-link }}"><div>{{ item.related-project-title }}</div></a>
 						</div>
 					{% endfor %}

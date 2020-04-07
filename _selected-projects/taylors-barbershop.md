@@ -19,9 +19,9 @@ related-projects:
 - related-project-title: "Bertolli"
   related-project-img: "/img/related-bertolli.png"
   related-project-link: "/selected-projects/bertolli/"
-- related-project-title: "BHMHS"
-  related-project-img: "/img/related-bhmhs.png"
-  related-project-link: "/selected-projects/bhmhs/"
+- related-project-title: "Braneu"
+  related-project-img: "/img/related-braneu.png"
+  related-project-link: "/selected-projects/braneu/"
 ---
 
 {% include project-img-text.html img="/img/projects/taylors-001.jpg" text="The original website was built on the Jekyll framework as a static website.  That framework presented some limitations as the barbershop expanded their service and product offerings." %}

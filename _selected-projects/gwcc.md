@@ -11,8 +11,8 @@ description: "<p>A partnership w/ Greenmount West Community Center, Baltimore Mu
 
 skills:
 - item: "UX/UI Design"
-- item: "Wordpress Development"
-- item: "E-commerce Web Development"
+- item: "Web Development"
+- item: "Jekyll Sites"
 
 project-links:
 - project-link: http://server4.svncrwns.com
