@@ -795,10 +795,11 @@ ul.rotate-established {
 }
 .project-links {
   padding-bottom: 50px;
+  line-height: 1.5;
 
   @include palm {
     font-size: 18px;
-    line-height: 1.5;
+    
   }
 
   @include desktop {
