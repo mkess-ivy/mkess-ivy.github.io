@@ -25,6 +25,9 @@ related-projects:
 - related-project-title: "GWCC x BMA"
   related-project-img: "/img/related-gwcc.png"
   related-project-link: "/selected-projects/gwcc-x-bma/"
+
+seo-description: Business Process Automation project that shows an improvement in an organization that saved $20K and revitalized their onboarding experience.
+seo-keywords: process improvement, business operations, strategy,baltimore, atlanta, black woman, tech, black woman in tech, montier kess, STEM, entrepreneurship, svncrwns, atlanta, strategy, fashion, streetwear, retail brands, scale brands, business strategy, media brands, wellness brands
 ---
 
 {% include project-img-text.html img="/img/projects/biz-process-002.jpg" text="<p>This service-based business did not have a well-documented process for onboarding new clients from their marketing funnels.</p>

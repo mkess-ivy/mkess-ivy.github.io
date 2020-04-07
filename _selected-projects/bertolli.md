@@ -23,6 +23,9 @@ related-projects:
 - related-project-title: "GWCC x BMA"
   related-project-img: "/img/related-gwcc.png"
   related-project-link: "/selected-projects/gwcc-x-bma/"
+
+seo-description: Client work with Bertolli, a wordpress website build out completed at Havas
+seo-keywords: front end development, web developer, web designer, ux/ui designer, baltimore, atlanta, wordpress developer, static website developer, javascript, black woman, tech, black woman in tech, montier kess, STEM, entrepreneurship, svncrwns, atlanta, strategy
 ---
 
 {% include project-img-text.html img="/img/projects/bertolli-001.jpg" text="While working as a Front-end Developer at HAVAS, a digital agency located in Baltimore, MD and headquartered in France, I contributed to the redesign of Bertolli's website." %}

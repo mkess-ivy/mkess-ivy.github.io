@@ -27,6 +27,9 @@ related-projects:
 - related-project-title: "Bertolli"
   related-project-img: "/img/related-bertolli.png"
   related-project-link: "/selected-projects/bertolli/"
+
+seo-description: Client work with Beautiful Hearts & Minds Health Services, a wordpress website build out.  Design and development completed by Montier Kess.
+seo-keywords: front end development, web developer, web designer, ux/ui designer, baltimore, atlanta, wordpress developer, static website developer, javascript, black woman, tech, black woman in tech, montier kess, STEM, entrepreneurship, svncrwns, atlanta, strategy
 ---
 
 {% include project-img-text.html img="/img/projects/bhmhs-001.jpg" %}
