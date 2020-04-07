@@ -1,5 +1,5 @@
 ---
-title: Business Process Automation
+title: Process Automation
 layout: project
 project-img: /img/projects/biz-process.png
 type: laptop
