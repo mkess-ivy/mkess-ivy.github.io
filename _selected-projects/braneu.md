@@ -13,8 +13,9 @@ skills:
 - item: "Wordpress Development"
 - item: "E-commerce Web Development"
 
-project-link: https://www.braneu.com
-project-link-title: Braneu's Website
+project-links:
+- project-link: https://www.braneu.com
+  project-link-title: Braneu's Website
 
 related-projects:
 - related-project-title: "BHMHS"

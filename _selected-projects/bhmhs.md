@@ -12,9 +12,13 @@ description: "<p>Beautiful Hearts & Minds Health Services is a behavioral health
 skills:
 - item: "UX/UI Design"
 - item: "Web Development"
+- item: "Wordpress Development"
 
-project-link: http://server2.svncrwns.com
-github-link:  https://github.com/mkess-ivy/bhm
+project-links:
+- project-link: http://server2.svncrwns.com
+  project-link-title: "BHMHS's Website"
+- project-link:  https://github.com/mkess-ivy/bhm
+  project-link-title: "BHMHS's Github Repo"
 
 related-projects:
 - related-project-title: "GWCC x BMA"
