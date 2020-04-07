@@ -31,6 +31,9 @@ related-projects:
 - related-project-title: "GWCC x BMA"
   related-project-img: "/img/related-gwcc.png"
   related-project-link: "/selected-projects/gwcc-x-bma/"
+
+seo-description: Client work with GWCC, BMA & Noisy Tenants - a collaborative project to develop programming, digital platforms and physical platforms for youth in Greenmount West community in Baltimore, Maryland. GWCC and Noisy Tenant Websites designed and developed by Montier Kess.
+seo-keywords: front end development, web developer, web designer, ux/ui designer, baltimore, atlanta, wordpress developer, static website developer, javascript, black woman, tech, black woman in tech, montier kess, STEM, entrepreneurship, svncrwns, atlanta, strategy, fashion, streetwear, retail brands, scale brands, business strategy
 ---
 
 {% include project-img-text.html img="/img/projects/gwcc-001.jpg" %}

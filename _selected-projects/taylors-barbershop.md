@@ -25,6 +25,7 @@ related-projects:
 
 seo-description: Client work with Taylor's Barbershop, a barbershop website that accepts online booking and payments. Designed and developed by Montier Kess.
 seo-keywords: front end development, web developer, web designer, ux/ui designer, baltimore, atlanta, wordpress developer, static website developer, javascript, black woman, tech, black woman in tech, montier kess, STEM, entrepreneurship, svncrwns, atlanta, strategy, fashion, streetwear, retail brands, scale brands, business strategy
+
 ---
 
 {% include project-img-text.html img="/img/projects/taylors-001.jpg" text="The original website was built on the Jekyll framework as a static website.  That framework presented some limitations as the barbershop expanded their service and product offerings." %}

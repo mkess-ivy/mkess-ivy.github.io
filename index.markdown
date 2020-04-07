@@ -8,6 +8,8 @@ home-title: Developer + Consultant that creates digital platforms, systems & bus
 seo-description: A portfolio of experience and projects from Montier Kess
 seo-keywords: systems analyst, systems architect, business operations, business operator, industrial engineer, morgan state university, montier kess, STEM, entrepreneurship, baltimore, baltimore marketing agency, svncrwns, atlanta, strategy, business strategy
 
+project-img: /img/og-img.png
+
 skills:
 - skill-item: UI / UX Design
 - skill-item: Web Development
