@@ -62,7 +62,7 @@ body.white-bg {
 	@include desktop {
 		margin-top: 6vh;
 		
-		padding-bottom: 75px;
+		padding-bottom: 50px;
 	}
 	@include standard {
 		font-size: 36px;
@@ -148,7 +148,7 @@ body.white-bg {
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 100%;
-	
+
 	@include tablet {
 		width: 50%;
 	}
