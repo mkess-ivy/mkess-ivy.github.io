@@ -14,6 +14,7 @@ plugins:
 collections:
   selected-projects:
     output: true
+    permalink: /projects/:title
   content-series:
     output: false
 
