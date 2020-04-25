@@ -5,7 +5,7 @@
 <body>
 	<div class="frow justify-between">
 		<div class="left-home">
-			<div class="wrapper home">
+			<div class="wrapper home js_scroll_reveal">
 				<div class="name002 text">Montier Kess</div>
 				<div class="home-title">{{ page.home-title }}</div>
 				<!-- <div class="name text">Montier Kess</div> -->
@@ -41,7 +41,9 @@
 			</div>
 		</div>
 		<section class="home-projects">
-			{% include selected-projects.html %}
+			<div class="frow justify-start">
+				{% include selected-projects.html %}
+			</div>
 		</section>
 	</div>
 </body>

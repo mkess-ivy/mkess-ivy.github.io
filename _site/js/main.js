@@ -14,6 +14,8 @@ $(document).ready(function(){
 
     $('.gallery-content a').simpleLightbox();
 
+    
+
     // About Slider
     $('.about-slider').slick({
         centerMode: true,

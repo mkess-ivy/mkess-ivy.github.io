@@ -24,7 +24,7 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="/css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
-  <link rel="alternate" type="application/rss+xml" title="Montier Kess" href="http://localhost:4000/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Montier Kess" href="//feed.xml" />
 
   <!-- Vendor Stylesheets -->
   <link rel="stylesheet" type="text/css" href="/css/vendor/frow.css" />
@@ -49,7 +49,7 @@
 <body>
 	<div class="frow justify-between">
 		<div class="left-home">
-			<div class="wrapper home">
+			<div class="wrapper home js_scroll_reveal">
 				<div class="name002 text">Montier Kess</div>
 				<div class="home-title">Developer + Consultant that creates digital platforms, systems & business processes for modern brands.</div>
 				<!-- <div class="name text">Montier Kess</div> -->
@@ -119,12 +119,13 @@
 			</div>
 		</div>
 		<section class="home-projects">
-			
+			<div class="frow justify-start">
+				
 
     
-    <div class="item">
+    <div class="item js_scroll_reveal">
         <div class="outer-box">
-        	<div class="selected-project-image" style="background-image:url('');">
+        <div class="selected-project-image" style="background-image:url(''); background-color: #06306d;">
         		<img src="/img/projects/taylors-barbershop.png" class="phone" />
         	</div>
         	<!-- <div class="inner-box js-project-overlay">
@@ -167,9 +168,9 @@
 
 
     
-    <div class="item">
+    <div class="item js_scroll_reveal">
         <div class="outer-box">
-        	<div class="selected-project-image" style="background-image:url('/img/projects/braneu-bg-white.jpg');">
+        <div class="selected-project-image" style="background-image:url('/img/projects/braneu-bg-white.jpg'); background-color: ;">
         		<img src="/img/projects/braneu.png" class="other" />
         	</div>
         	<!-- <div class="inner-box js-project-overlay">
@@ -201,9 +202,9 @@
 
 
     
-    <div class="item">
+    <div class="item js_scroll_reveal">
         <div class="outer-box">
-        	<div class="selected-project-image" style="background-image:url('');">
+        <div class="selected-project-image" style="background-image:url('/img/projects/bertolli-cover.jpg'); background-color: ;">
         		<img src="/img/projects/bertolli.png" class="other" />
         	</div>
         	<!-- <div class="inner-box js-project-overlay">
@@ -239,9 +240,9 @@
 
 
     
-    <div class="item">
+    <div class="item js_scroll_reveal">
         <div class="outer-box">
-        	<div class="selected-project-image" style="background-image:url('/img/projects/gwcc-bg-black.jpg');">
+        <div class="selected-project-image" style="background-image:url('/img/projects/gwcc-bg-black.jpg'); background-color: ;">
         		<img src="/img/projects/gwcc.png" class="phone" />
         	</div>
         	<!-- <div class="inner-box js-project-overlay">
@@ -283,9 +284,9 @@
 
 
     
-    <div class="item">
+    <div class="item js_scroll_reveal">
         <div class="outer-box">
-        	<div class="selected-project-image" style="background-image:url('/img/projects/buddha.jpg');">
+        <div class="selected-project-image" style="background-image:url(''); background-color: #a96b4c;">
         		<img src="/img/projects/bhmhs-cover.png" class="laptop" />
         	</div>
         	<!-- <div class="inner-box js-project-overlay">
@@ -317,9 +318,9 @@
 
 
     
-    <div class="item">
+    <div class="item js_scroll_reveal">
         <div class="outer-box">
-        	<div class="selected-project-image" style="background-image:url('');">
+        <div class="selected-project-image" style="background-image:url(''); background-color: #62807a;">
         		<img src="/img/projects/biz-process.png" class="laptop" />
         	</div>
         	<!-- <div class="inner-box js-project-overlay">
@@ -360,7 +361,7 @@
     
 
     
-    <div class="item">
+    <div class="item js_scroll_reveal">
         <div class="outer-box">
             <div class="selected-project-image content-series-section" style="background-image:url('/img/projects/content-bg.jpg');">
                 <div class="content-project-title">Content Series</div>
@@ -408,6 +409,7 @@
 
 
 
+			</div>
 		</section>
 	</div>
 </body>
@@ -432,7 +434,7 @@
     sr.reveal('.js_scroll_reveal', {
         reset: true,
         easing: 'ease-in',
-        duration: 700
+        duration: 250
     });
 
     AOS.init({

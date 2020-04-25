@@ -2,6 +2,7 @@
 title: Taylor's Barbershop
 layout: project
 project-img: /img/projects/taylors-barbershop.png
+bg-color: '#06306d'
 type: phone
 priority: 1
 description: "<p>Taylor's Barbershop is an upscale hair lounge based in Richmond, Virginia.  The space provides grooming services to men, women & kids.  Services include signature hair cuts, facials, coloring and special services for wedding parties.</p>

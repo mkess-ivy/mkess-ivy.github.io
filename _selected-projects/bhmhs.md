@@ -1,7 +1,8 @@
 ---
 title: BHMHS
 layout: project
-bg-img: /img/projects/buddha.jpg
+bg-color: '#a96b4c'
+bg-image: /img/projects/bhmhs-cover-002.jpg
 project-img: /img/projects/bhmhs-cover.png
 type: laptop
 priority: 5

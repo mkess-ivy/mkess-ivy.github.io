@@ -56,12 +56,17 @@ body.white-bg {
 		padding-bottom: 125px;
 	}
 	@include tablet {
-		font-size: 36px;
+		
 		max-width: 575px;
 	}
 	@include desktop {
 		margin-top: 6vh;
-		padding-bottom: 175px;
+		
+		padding-bottom: 75px;
+	}
+	@include standard {
+		font-size: 36px;
+		padding-bottom: 150px;
 	}
 }
 
@@ -69,10 +74,10 @@ body.white-bg {
 	@include desktop {
 		// position: fixed;
 		// bottom: 4vh;
-		width: 50%;
+		width: 100%;
 	}
 	@include standard {
-		width: 60%;
+		// width: 60%;
 	}
 	@include widescreen {
 		width: 80%;
@@ -126,11 +131,30 @@ body.white-bg {
 // selected projects
 .home-projects {
 	width: 100%;
+
+	.item {
+		width: 100%;
+
+		@include tablet {
+			width: 50%;
+		}
+		@include desktop {
+			width: 100%;
+		}
+	}
 }
 .project-item {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	width: 100%;
+	
+	@include tablet {
+		width: 50%;
+	}
+	@include desktop {
+		width: 100%;
+	}
 }
 .project-image {
 	padding: 125px 35px 30px;
@@ -163,7 +187,9 @@ body.white-bg {
 .home-contact-section {
 	text-align: center;
 	color: $white;
-	padding: 75px 0 25px;
+	padding: 75px 0 18px;
+
+	
 
 	.contact-bolt {
 		padding-bottom: 50px;

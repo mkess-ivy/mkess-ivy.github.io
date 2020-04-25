@@ -2,6 +2,7 @@
 title: Process Automation
 layout: project
 project-img: /img/projects/biz-process.png
+bg-color: '#62807a'
 type: laptop
 priority: 6
 description: "<p>Worked with client to develop a more efficient onboarding system for their business that includes automation via API integration.</p>
