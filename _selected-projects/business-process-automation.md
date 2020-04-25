@@ -22,10 +22,10 @@ project-links:
 related-projects:
 - related-project-title: "BHMHS"
   related-project-img: "/img/related-bhmhs.png"
-  related-project-link: "/projects/bhmhs/"
+  related-project-link: "/projects/bhmhs"
 - related-project-title: "GWCC x BMA"
   related-project-img: "/img/related-gwcc.png"
-  related-project-link: "/projects/gwcc-x-bma/"
+  related-project-link: "/projects/gwcc"
 
 seo-description: Business Process Automation project that shows an improvement in an organization that saved $20K and revitalized their onboarding experience.
 seo-keywords: process improvement, business operations, strategy,baltimore, atlanta, black woman, tech, black woman in tech, montier kess, STEM, entrepreneurship, svncrwns, atlanta, strategy, fashion, streetwear, retail brands, scale brands, business strategy, media brands, wellness brands

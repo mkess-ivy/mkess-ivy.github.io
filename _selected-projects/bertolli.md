@@ -20,10 +20,10 @@ project-links:
 related-projects:
 - related-project-title: "BHMHS"
   related-project-img: "/img/related-bhmhs.png"
-  related-project-link: "/projects/bhmhs/"
+  related-project-link: "/projects/bhmhs"
 - related-project-title: "GWCC x BMA"
   related-project-img: "/img/related-gwcc.png"
-  related-project-link: "/projects/gwcc-x-bma/"
+  related-project-link: "/projects/gwcc"
 
 seo-description: Client work with Bertolli, a wordpress website build out completed at Havas
 seo-keywords: front end development, web developer, web designer, ux/ui designer, baltimore, atlanta, wordpress developer, static website developer, javascript, black woman, tech, black woman in tech, montier kess, STEM, entrepreneurship, svncrwns, atlanta, strategy

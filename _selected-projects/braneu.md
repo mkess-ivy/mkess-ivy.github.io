@@ -19,10 +19,10 @@ project-links:
 related-projects:
 - related-project-title: "Taylor's Barbershop"
   related-project-img: "/img/related-taylors.png"
-  related-project-link: "/projects/taylors-barbershop/"
+  related-project-link: "/projects/taylors-barbershop"
 - related-project-title: "BHMHS"
   related-project-img: "/img/related-bhmhs.png"
-  related-project-link: "/projects/bhmhs/"
+  related-project-link: "/projects/bhmhs"
 
 seo-description: Client work with Braneu, a luxury lifestyle brand website designed and developed by Montier Kess.
 seo-keywords: front end development, web developer, web designer, ux/ui designer, baltimore, atlanta, wordpress developer, static website developer, javascript, black woman, tech, black woman in tech, montier kess, STEM, entrepreneurship, svncrwns, atlanta, strategy, fashion, streetwear, retail brands, scale brands, business strategy
