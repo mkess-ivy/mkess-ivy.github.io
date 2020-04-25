@@ -3,9 +3,9 @@
   height: auto;
   display: block;
   position: relative;
-  
+
 	img.phone {
-    width: 180px;  
+    width: 180px;
   	height: auto;
   	text-align: center;
   	padding: 95px 0;
@@ -77,7 +77,7 @@
   	position: absolute;
   	padding: 90px 45px 0 50px;
   	transition: opacity .5s;
-  	
+
 
     @include palm {
       padding: 95px 45px 0 50px;
