@@ -655,11 +655,9 @@ ul.rotate-established {
 .project-title {
   font-size: 40px;
   font-weight: bold;
-  // padding-bottom: 25px;
   text-transform: uppercase;
 
   @include desktop {
-    // font-size: 60px;
     width: 40%;
     line-height: 1;
   }
