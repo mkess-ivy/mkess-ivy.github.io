@@ -295,7 +295,7 @@ ul.rotate-established li.est { width: 60px; height: 1px; background: #fff; margi
 
 .related-title { font-size: 24px; font-weight: bold; text-transform: uppercase; padding-bottom: 40px; }
 
-@media screen and (min-width: 1024px) { .related-title { font-size: 40px; width: 30%; line-height: 1; } }
+@media screen and (min-width: 1024px) { .related-title { font-size: 28px; width: 30%; line-height: 1; } }
 
 @media screen and (min-width: 1200px) { .related-title { width: 25%; } }
 
