@@ -1,9 +1,9 @@
 {% assign projects = site.selected-projects | sort: 'priority' %}
 {% for item in projects %}
     {% unless item.title == "Contact" or item.title == "Content Series" or item.title == "Quote" %}
-    <div class="item">
+    <div class="item js_scroll_reveal">
         <div class="outer-box">
-        	<div class="selected-project-image" style="background-image:url('{{ item.bg-img }}');">
+        <div class="selected-project-image" style="background-image:url('{{ item.bg-img }}'); background-color: {{ item.bg-color }};">
         		<img src="{{ item.project-img }}" class="{{ item.type }}" />
         	</div>
         	<!-- <div class="inner-box js-project-overlay">
@@ -19,7 +19,7 @@
     {% endunless %}
 
     {% if item.title == "Content Series" %}
-    <div class="item">
+    <div class="item js_scroll_reveal">
         <div class="outer-box">
             <div class="selected-project-image content-series-section" style="background-image:url('{{ item.bg-img }}');">
                 <div class="content-project-title">Content Series</div>

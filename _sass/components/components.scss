@@ -559,7 +559,7 @@ ul.rotate-established {
   font-style: italic;
 
   @include tablet {
-    font-size: 42px;
+    font-size: 34px;
   }
   @include desktop {
     font-size: 30px;
@@ -597,7 +597,8 @@ ul.rotate-established {
 
   @include tablet {
     font-size: 14px;
-    padding: 0 75px 30px;
+    // padding: 0 75px 30px;
+    padding: 0 25px 30px;
   }
 
   @include desktop {
@@ -654,13 +655,16 @@ ul.rotate-established {
 .project-title {
   font-size: 40px;
   font-weight: bold;
-  padding-bottom: 25px;
+  // padding-bottom: 25px;
   text-transform: uppercase;
 
   @include desktop {
-    font-size: 60px;
+    // font-size: 60px;
     width: 40%;
     line-height: 1;
+  }
+  @include standard {
+    font-size: 60px;
   }
 }
 .line {
@@ -705,6 +709,9 @@ ul.rotate-established {
 }
 .project-info {
   @include desktop {
+    margin-top: 6vh;
+  }
+  @include standard {
     margin-top: 12vh;
   }
 }
@@ -746,7 +753,7 @@ ul.rotate-established {
   padding-bottom: 40px;
 
   @include desktop {
-    font-size: 40px;
+    font-size: 28px;
     width: 30%;
     line-height: 1;
 

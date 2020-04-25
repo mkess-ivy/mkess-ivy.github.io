@@ -7,7 +7,7 @@ type: phone
 priority: 4
 description: "<p>A partnership w/ Greenmount West Community Center, Baltimore Museum of Art & Mark Bradford provided resources for youth artists to explore STEAM programming and platforms for sharing their work.</p>
 <p>Created two websites for Greenmount West Community Center & Noisy Tenants to share the work they are facilitating in the center.</p>
-<p>Designed website using Sketch & Prototyped with Marvel.  Developed using Jekyll with the SiteLeaf CMS User Interface.</p>"
+<p>Designed website using Sketch.  Developed using Jekyll with SiteLeaf CMS</p>"
 
 skills:
 - item: "UX/UI Design"
