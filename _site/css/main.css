@@ -253,9 +253,9 @@ ul.rotate-established li.est { width: 60px; height: 1px; background: #fff; margi
 
 .content-project-link:hover { color: #50f2c9; }
 
-.project-title { font-size: 40px; font-weight: bold; padding-bottom: 25px; text-transform: uppercase; }
+.project-title { font-size: 40px; font-weight: bold; text-transform: uppercase; }
 
-@media screen and (min-width: 1024px) { .project-title { font-size: 60px; width: 40%; line-height: 1; } }
+@media screen and (min-width: 1024px) { .project-title { width: 40%; line-height: 1; } }
 
 .line { background: #d1cfcf; height: 1px; margin: 35px 0; }
 
@@ -277,7 +277,7 @@ ul.rotate-established li.est { width: 60px; height: 1px; background: #fff; margi
 
 .project-img-wrapper img { width: 100%; }
 
-@media screen and (min-width: 1024px) { .project-info { margin-top: 12vh; } }
+@media screen and (min-width: 1024px) { .project-info { margin-top: 6vh; } }
 
 .project-description { padding-top: 30px; }
 
@@ -355,7 +355,7 @@ body.white-bg { background-color: #fff; }
 
 @media screen and (min-width: 768px) { .home-title { max-width: 575px; } }
 
-@media screen and (min-width: 1024px) { .home-title { margin-top: 6vh; padding-bottom: 75px; } }
+@media screen and (min-width: 1024px) { .home-title { margin-top: 6vh; padding-bottom: 50px; } }
 
 @media screen and (min-width: 1200px) { .home-title { font-size: 36px; padding-bottom: 150px; } }
 
