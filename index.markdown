@@ -38,5 +38,5 @@ contact-info:
 - contact: Instagram
   link: "https://www.instagram.com/montierkess.co"
 - contact: Resume
-  link: "https://www.dropbox.com/s/gigeljd1e9t246l/2019%20-%20Resume%20-%20Montier%20Kess%20-%20Atlanta.pdf?dl=0"
+  link: "https://www.dropbox.com/s/2wx4eji7840g4v8/MONTIER%20KESS%20RESUME%20-%202020%20-%20PRODUCTS%2BSYSTEMS.pdf?dl=0"
 ---
