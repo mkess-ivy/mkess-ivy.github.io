@@ -13,9 +13,9 @@ project-img: /img/og-img.png
 skills:
 - skill-item: UI / UX Design
 - skill-item: Web Development
-- skill-item: Wordpress Theme Development
-- skill-item: E-commerce Web Development
-- skill-item: Jekyll Sites
+- skill-item: App Development
+- skill-item: Wordpress Development
+- skill-item: Shopify Development
 - skill-item: Designing Systems
 - skill-item: Business Processes
 
