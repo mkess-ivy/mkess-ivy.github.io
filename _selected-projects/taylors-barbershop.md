@@ -4,7 +4,7 @@ layout: project
 project-img: /img/projects/taylors-barbershop.png
 bg-color: '#06306d'
 type: phone
-priority: 1
+priority: 5
 description: "<p>Taylor's Barbershop is an upscale hair lounge based in Richmond, Virginia.  The space provides grooming services to men, women & kids.</p>
 <p>Designed website using the Squarespace Platform.  Features include appointment scheduling, selling products and sharing the barbershop culture.</p>"
 
@@ -19,10 +19,10 @@ project-links:
 related-projects:
 - related-project-title: "Bertolli"
   related-project-img: "/img/related-bertolli.png"
-  related-project-link: "/projects/bertolli"
+  related-project-link: "/projects/bertolli/"
 - related-project-title: "Braneu"
   related-project-img: "/img/related-braneu.png"
-  related-project-link: "/projects/braneu"
+  related-project-link: "/projects/braneu/"
 
 seo-description: Client work with Taylor's Barbershop, a barbershop website that accepts online booking and payments. Designed and developed by Montier Kess.
 seo-keywords: front end development, web developer, web designer, ux/ui designer, baltimore, atlanta, wordpress developer, static website developer, javascript, black woman, tech, black woman in tech, montier kess, STEM, entrepreneurship, svncrwns, atlanta, strategy, fashion, streetwear, retail brands, scale brands, business strategy

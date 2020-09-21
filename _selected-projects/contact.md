@@ -1,4 +1,4 @@
 ---
 title: Contact
-priority: 7
+priority: 8
 ---

@@ -1,10 +1,10 @@
 ---
 title: Process Automation
 layout: project
-project-img: /img/projects/biz-process.png
+project-img: /img/projects/business-process-automation.png
 bg-color: '#62807a'
-type: laptop
-priority: 6
+type: phone
+priority: 3
 description: "<p>Worked with client to develop a more efficient onboarding system for their business that includes automation via API integration.</p>
 
 <p>The automation process removed 8 steps from the onboarding process and we were able to replace the need for an employee with our new system.</p>"
@@ -21,11 +21,11 @@ project-links:
 
 related-projects:
 - related-project-title: "BHMHS"
-  related-project-img: "/img/related-bhmhs.png"
-  related-project-link: "/projects/bhmhs"
+  related-project-img: "/img/related-bhmhs-002.png"
+  related-project-link: "/projects/bhmhs/"
 - related-project-title: "GWCC x BMA"
   related-project-img: "/img/related-gwcc.png"
-  related-project-link: "/projects/gwcc"
+  related-project-link: "/projects/gwcc/"
 
 seo-description: Business Process Automation project that shows an improvement in an organization that saved $20K and revitalized their onboarding experience.
 seo-keywords: process improvement, business operations, strategy,baltimore, atlanta, black woman, tech, black woman in tech, montier kess, STEM, entrepreneurship, svncrwns, atlanta, strategy, fashion, streetwear, retail brands, scale brands, business strategy, media brands, wellness brands
@@ -41,4 +41,3 @@ seo-keywords: process improvement, business operations, strategy,baltimore, atla
 <li>- notifying the team of new client activity</li>
 <li>- creating tasks in Asana based on different stages of the onboarding process</li>
 <li>- setting up client appointments</li></ul>" %}
-

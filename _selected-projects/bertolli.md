@@ -5,7 +5,7 @@ project-img: /img/projects/bertolli.png
 bg-img: /img/projects/bertolli-cover.jpg
 
 type: other
-priority: 3
+priority: 1
 description: "<p>While working as a Front-end Developer at HAVAS, a digital agency located in Baltimore, MD, I contributed to the redesign of Bertolli's website.  My work includes developing the website pages: How To's, Our Story, Media Press Releases & FAQs.</p>
 <p>The website was designed by the HAVAS Creative Team and developed on the Wordpress platform.</p>"
 
@@ -19,11 +19,11 @@ project-links:
 
 related-projects:
 - related-project-title: "BHMHS"
-  related-project-img: "/img/related-bhmhs.png"
-  related-project-link: "/projects/bhmhs"
+  related-project-img: "/img/related-bhmhs-002.png"
+  related-project-link: "/projects/bhmhs/"
 - related-project-title: "GWCC x BMA"
   related-project-img: "/img/related-gwcc.png"
-  related-project-link: "/projects/gwcc"
+  related-project-link: "/projects/gwcc/"
 
 seo-description: Client work with Bertolli, a wordpress website build out completed at Havas
 seo-keywords: front end development, web developer, web designer, ux/ui designer, baltimore, atlanta, wordpress developer, static website developer, javascript, black woman, tech, black woman in tech, montier kess, STEM, entrepreneurship, svncrwns, atlanta, strategy
