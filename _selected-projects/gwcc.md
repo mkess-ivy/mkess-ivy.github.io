@@ -27,7 +27,7 @@ project-links:
 related-projects:
 - related-project-title: "Process Automation"
   related-project-img: "/img/related-biz-process.png"
-  related-project-link: "/projects/bhmhs/"
+  related-project-link: "/projects/business-process-automation/"
 - related-project-title: "BHMHS"
   related-project-img: "/img/related-bhmhs-002.png"
   related-project-link: "/projects/bhmhs/"
