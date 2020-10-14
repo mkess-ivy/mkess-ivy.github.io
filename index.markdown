@@ -20,15 +20,13 @@ skills:
 - skill-item: Business Processes
 
 recent-work:
-- work: Actionet / CMS
+- work: ACTIONET
 - work: SVNCRWNS
-- work: Baltimore Museum of Art
-- work: Wunderman
 - work: HAVAS
-- work: L-Squared / NOAA
-- work: KSJ / DHHQ
+- work: NOAA
+- work: DHHQ
 - work: NAVSEA
-- work: General Electric / MRAS
+- work: General Electric
 
 contact-info:
 - contact: LinkedIn
@@ -37,6 +35,4 @@ contact-info:
   link: "https://www.github.com/mkess-ivy"
 - contact: Instagram
   link: "https://www.instagram.com/montierkess.co"
-- contact: Resume
-  link: "https://www.dropbox.com/s/2wx4eji7840g4v8/MONTIER%20KESS%20RESUME%20-%202020%20-%20PRODUCTS%2BSYSTEMS.pdf?dl=0"
 ---
