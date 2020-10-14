@@ -20,7 +20,7 @@ skills:
 - skill-item: Business Processes
 
 recent-work:
-- work: ACTIONET
+- work: ActioNet
 - work: SVNCRWNS
 - work: HAVAS
 - work: NOAA
