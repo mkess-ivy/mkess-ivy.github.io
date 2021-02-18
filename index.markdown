@@ -3,7 +3,7 @@ layout: home-page
 title: "Home"
 permalink: "/"
 
-home-title: Developer + Consultant that creates digital platforms, systems & business processes for modern brands.
+home-title: Developer + Consultant that creates digital platforms & systems for modern brands.
 
 seo-description: A portfolio of experience and projects from Montier Kess
 seo-keywords: systems analyst, systems architect, business operations, business operator, industrial engineer, morgan state university, montier kess, STEM, entrepreneurship, baltimore, baltimore marketing agency, svncrwns, atlanta, strategy, business strategy
